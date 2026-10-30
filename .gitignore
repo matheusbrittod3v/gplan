@@ -7,3 +7,8 @@ build/
 .vscode/
 .idea/
 backend/prisma/dev.db
+
+# Local credentials and generated dependencies
+.env.*
+!.env.example
+vendor/
